@@ -1,0 +1,54 @@
+/*.main_form{
+    display: flex;
+    flex-direction: column;
+}*/
+.form-color{
+    background-color: hotpink;
+    display: flex;
+    height:100%;
+    width:100%;
+}
+.card-space{
+    padding:20px;
+    margin:20px;
+}
+.input-style{
+    display: flex;
+    width:100%
+}
+input{
+    width:100%
+}
+
+.row_space{
+    padding:20px;
+}
+
+.errorMsg{
+    display: flex;
+    font-size: 15px;
+    color:red;
+    justify-content: center;
+}
+.center-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.success-msg{
+    display: flex;
+    font-size: 20px;
+    color:green
+}
+tr:nth-of-type(odd){
+background-color: cornsilk;
+}
+tr:nth-of-type(even ){
+    background-color: bisque;
+    }
+
+    @media screen and (min-width:576px) and (max-width:766px){
+        .label{
+            font-size: 15px;
+        }
+    }
